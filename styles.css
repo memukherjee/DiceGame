@@ -17,7 +17,7 @@ body {
 h1 {
   margin: 30px;
   font-family: 'Lobster', cursive;
-  text-shadow: 5px 0 #ffffff;
+  text-shadow: 5px 0 #ffffff/*#f5f0e1*/;
   font-size: 8rem;
   color: #442522;
 }
@@ -27,15 +27,38 @@ p {
   color: #442522;
   font-family: 'Indie Flower', cursive;
 }
+p:hover{
+  color: #ffffff;
+}
 
 img {
   width: 80%;
 }
 
+.btn{
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.2rem;
+  font-weight:bold;
+  background-color:#442522;
+  color: #ffffff;
+  height: 50px;
+  width: 200px;
+  border-radius: 15px;
+  margin-top: 30px;
+  padding: 10px 5px 10px 5px;
+  border: 3px solid #ffffff;
+  outline: none;
+}
+
+.btn:hover{
+  border-color: #442522;
+  background-color: #b2885e;
+  color: #442522;
+}
+
 footer {
-  margin-top: 5%;
-  color: #000000;
+  margin-top: 2.5%;
+  color: #442522;
   text-align: center;
   font-family: 'Indie Flower', cursive;
-
 }
